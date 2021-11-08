@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    
+
+}
+
+.lista-rodape{
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+
+    
+
+}
+.preço{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+
+.margem-list{
+    margin-bottom: 3rem;
+}
+.margem-list2{
+    margin-left: 100px;
+    margin-bottom: 7px;
+}
+.margem-mail{
+    margin-left: 400px;
+    text-decoration: underline;
+}
+
+header h2{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: gainsboro;
+    justify-content: center;
+}
+
+.rodape{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: gainsboro;
+    justify-content: flex-start;
+    margin-top: 3rem;
+}
+
+main{
+    
+}
+.capa{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+    
+}
+
+.capa div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../public/Foto-central.webp);
+    font-size: cover;
+    width: 1189px;
+    height: 660px;
+
+}
+
+.capa div p{
+    font-size: 72px;
+    color: white;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.capa div h3{
+    font-size: 24x;
+    color: white;
+    text-align: center;
+}
+
+.insta{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;
+    background: rgb(230, 227, 227);
+
+
+    
+}
+.insta div{
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../public/fotosinsta.png);
+    font-size: cover;
+    width: 1189px;
+    height: 660px;
+    margin-top: 2rem;
+    
+}
+.alinhamento{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    color: rgb(37, 43, 49);
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid;
+    font-size: 12px;
+}
+.button2{
+    width: 100px;
+    height: 40px;
+    background: ivory;
+    border: 1px solid;
+    font-size: 12px;
+    color: lightslategray;
+    margin-top: 5px;
+    margin-left: 5px;
+}
